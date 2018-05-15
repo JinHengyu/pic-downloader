@@ -1,0 +1,14 @@
+{
+  "name": "pic-downloader",
+  "version": "1.0.0",
+  "description": "open source Baidu pic downloader of batch mode",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "JimJin",
+  "license": "MIT",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}

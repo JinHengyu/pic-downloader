@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FUCK pic.baidu.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <input type="text" onchange="keyword=this.value">
+        <input type="number" onchange="amount=parseInt(this.value)" value="30">
+        <input type="text" onchange="dir=this.value">
+        <input type="button" value="download" onclick="search()">
+    </div>
+<!-- <script>alert(__dirname)</script> -->
+    <script src="entrance.js"></script>
+</body>
+
+</html>
